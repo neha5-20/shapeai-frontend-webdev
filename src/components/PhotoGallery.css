@@ -1,0 +1,41 @@
+.container{
+  padding-bottom: 30px;
+}
+
+.G-row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-color: lightblue;
+    
+    
+  }
+  
+ .G-col {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .G-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .G-col img:hover{
+    transform: scale(0.96);
+    transition: 0.5s all linear;
+  }
+
+  
+  @media screen and (max-width: 480px) {
+    .G-col {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }

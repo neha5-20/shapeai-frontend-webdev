@@ -1,0 +1,80 @@
+.contact{
+    background-color:rgba(33, 156, 136, 0.425);
+    height: auto;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.image{
+    background-image: url("https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    align-items: center;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.form_con{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 10px;
+
+}
+
+.form_con h5{
+    font-size: 15px;
+    color:rgb(43, 43, 43);
+    padding-top: 20px;
+}
+
+.form_con input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 550px;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+.form_con input:focus{
+    border: 0;
+}
+
+#tell{
+    height: 150px;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 15px;
+    width: 120px;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgb(124, 122, 122);
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: rgb(58, 56, 56);
+    transition: all 0.5s linear;
+}
